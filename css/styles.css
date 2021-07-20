@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.background {
+  padding-top: 10vh;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.hero-heading {
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: -0.02em;
+  color: #969696;
+}
+
+.soon {
+  font-weight: 700;
+  color: #151F29;
+}
+
+.hero-para {
+  font-weight: 300;
+  font-size: 20px;
+  color: #151F29;
+}
+
+.input {
+  width: 30%;
+  min-width: 350px;
+  height: 55px;
+  padding-left: 20px;
+  border: 1px solid #C2D3FF;
+  border-radius: 25px;
+  color: #151F29;
+}
+
+.input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #C2D3FF;
+}
+
+.button {
+  width: 15%;
+  min-width: 150px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background: #4C7BF3;
+  box-shadow: 0 4px 10px rgba(76, 123, 243, 0.3);
+  border-radius: 25px;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.hero-img {
+  width: 45%;
+}
+
+.social-btn {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #C2D3FF;
+  background-color: transparent;
+  color: #4C7BF3;
+  border-radius: 30px;
+  margin-left: 14px;
+}
+
+.social-btn:hover {
+  background-color: #4C7BF3;
+  color: #fff;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 12px;
+  color: #969696;
+}
+
+.invalid {
+  position: relative;
+  right: 13.6%;
+  font-size: 13px;
+  font-weight: 300;
+  color: #FF5263;
+  visibility: hidden;
+}
+
+@media (max-width: 767px) {
+
+  .background {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .hero-img {
+    width: 100%;
+    margin-bottom: 8vh;
+  }
+
+  .input {
+    min-width: 320px;
+    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    margin-top: 0;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 702px) {
+  .button {
+    margin-top: 20px;
+  }
+}
